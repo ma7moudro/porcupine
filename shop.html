@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Catalogue | Porcupine Snowboard School</title>
+<meta name="description" content="Lessons, rentals and season passes — the full Porcupine catalogue with transparent prices.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-shop">
+<div class="grain" aria-hidden="true"></div>
+
+<div class="ticker" aria-hidden="true">
+<div class="ticker-track">
+<span>The Catalogue ✦ 10 packages &amp; services ✦ Transparent prices ✦ Free refund within 48h ✦ Bundle &amp; save ✦ The Catalogue ✦ 10 packages &amp; services ✦ Transparent prices ✦ Free refund within 48h ✦ Bundle &amp; save ✦</span>
+<span>The Catalogue ✦ 10 packages &amp; services ✦ Transparent prices ✦ Free refund within 48h ✦ Bundle &amp; save ✦ The Catalogue ✦ 10 packages &amp; services ✦ Transparent prices ✦ Free refund within 48h ✦ Bundle &amp; save ✦</span>
+</div>
+</div>
+
+<header class="site-head" id="siteHead">
+<div class="head-inner container">
+<a class="brand" href="index.html">
+<span class="brand-stamp">P.</span>
+<span class="brand-txt">Porcupine<small>Snowboard School • Est. 2016</small></span>
+</a>
+<nav class="nav" id="nav">
+<a href="index.html">Home</a>
+<a href="about.html">The School</a>
+<a href="shop.html" class="active">Catalogue</a>
+<a href="contact.html">Book a Lesson</a>
+</nav>
+<div class="head-actions">
+<button class="btn btn-sm cart-open-btn" id="cartOpenBtn">Cart <span class="count-bubble" id="cartCount">0</span></button>
+<button class="nav-burger" id="navBurger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div>
+</div>
+</header>
+
+<main>
+
+<section class="page-hero">
+<div class="container">
+<p class="crumb">Home / Catalogue</p>
+<span class="sec-kicker sec-kicker-gold">Page No. 03 ✦ Shop &amp; Book</span>
+<h1>The 2025 Catalogue.</h1>
+<p class="page-sub">Ten packages and services, every price upfront. Filter by category, search by name, and add anything to your booking cart.</p>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+
+<div class="shop-tools">
+<label class="search">
+<span aria-hidden="true">⌕</span>
+<input type="search" id="prodSearch" placeholder="Search the catalogue…" aria-label="Search products">
+</label>
+<div class="cats" id="catRow">
+<button class="cat-btn active" data-cat="all">All</button>
+<button class="cat-btn" data-cat="group">Group Lessons</button>
+<button class="cat-btn" data-cat="private">Private Lessons</button>
+<button class="cat-btn" data-cat="gear">Gear Rental</button>
+<button class="cat-btn" data-cat="season">Season Passes</button>
+</div>
+<select class="sort-select" id="prodSort" aria-label="Sort products">
+<option value="featured">Sort: Featured</option>
+<option value="price-asc">Price: Low → High</option>
+<option value="price-desc">Price: High → Low</option>
+<option value="rating">Top Rated</option>
+</select>
+</div>
+<p class="results-note" id="prodCount"></p>
+<div class="prods" id="prodGrid"></div>
+
+<div class="perks">
+<div class="perk reveal"><span class="perk-ic">↺</span><div><h4>48-Hour Free Refund</h4><p>Changed your mind before your slot? Full refund, no questions, no forms.</p></div></div>
+<div class="perk reveal" style="--d:.1s"><span class="perk-ic">✓</span><div><h4>Certified or Rebooked</h4><p>Every lesson is taught by an AASI-certified coach — or your next one is free.</p></div></div>
+<div class="perk reveal" style="--d:.2s"><span class="perk-ic">❄</span><div><h4>Snow Guarantee</h4><p>If the mountain can't deliver snow on your date, you ride free on the next powder day.</p></div></div>
+</div>
+
+</div>
+</section>
+
+</main>
+
+<aside class="cart" id="cartDrawer" aria-hidden="true" aria-label="Booking cart">
+<div class="cart-head">
+<h3>Your Cart</h3>
+<button class="cart-close" id="cartClose" aria-label="Close cart">✕</button>
+</div>
+<div class="cart-items" id="cartItems"></div>
+<div class="cart-foot">
+<div class="cart-row"><span>Total</span><strong id="cartTotal">$0</strong></div>
+<p class="cart-note">Pay online or at the base cabin. Free refund up to 48 hours before your first slot.</p>
+<button class="btn btn-block" id="checkoutBtn">Checkout →</button>
+</div>
+</aside>
+<div class="scrim" id="scrim"></div>
+
+<footer class="site-foot">
+<div class="container">
+<div class="foot-grid">
+<div class="foot-brand">
+<a class="brand brand-light" href="index.html">
+<span class="brand-stamp">P.</span>
+<span class="brand-txt">Porcupine<small>Snowboard School • Est. 2016</small></span>
+</a>
+<p>Precision-built snowboarding lessons for absolute beginners. Serious about accuracy, easy on your wallet.</p>
+<p class="foot-tag">❄ Frostpeak Resort · 12 Summit Road</p>
+</div>
+<div>
+<h4 class="foot-h">Explore</h4>
+<nav class="foot-links">
+<a href="index.html">Home</a>
+<a href="about.html">The School</a>
+<a href="shop.html">Catalogue</a>
+<a href="contact.html">Book a Lesson</a>
+<a href="privacy.html">Privacy Policy</a>
+</nav>
+</div>
+<div>
+<h4 class="foot-h">Slope Hours</h4>
+<ul class="hours">
+<li><span>Mon – Thu</span><i></i><strong>8am – 9pm</strong></li>
+<li><span>Friday</span><i></i><strong>1pm – 9pm</strong></li>
+<li><span>Sat – Sun</span><i></i><strong>7am – 10pm</strong></li>
+</ul>
+<h4 class="foot-h">Talk to Us</h4>
+<p>+1 (555) 019-2016<br>hello@porcupine.school</p>
+</div>
+<div>
+<h4 class="foot-h">The Summit Newsletter</h4>
+<p>First-run tips, powder alerts and subscriber-only deals. One email a week, zero fluff.</p>
+<form class="nl-form">
+<input type="email" placeholder="you@email.com" required aria-label="Email address">
+<button class="btn btn-sm" type="submit">Join</button>
+</form>
+</div>
+</div>
+<div class="foot-word" aria-hidden="true">PORCUPINE</div>
+<div class="foot-bottom">
+<span>© <span id="year">2025</span> Porcupine Snowboard School</span>
+<span><a href="privacy.html">Privacy Policy</a> · Crafted at 2,400m ❄</span>
+</div>
+</div>
+</footer>
+
+<button class="top-btn" id="backTop" aria-label="Back to top">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>
